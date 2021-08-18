@@ -1,6 +1,22 @@
 {
+  "build": {
+    "appId": "com.reactjs_demo.app",
+    "extends": null,
+    "productName": "Đây là bản test",
+    "directories": {
+      "output": "build"
+    },
+    "win": {
+      "target": "nsis",
+      "icon": "public/logo512.png"
+    },
+    "nsis": {
+      "allowToChangeInstallationDirectory": true,
+      "oneClick": false
+    }
+  },
   "name": "auto_update_react",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
@@ -15,10 +31,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "electron": "electron ."
+    "electron": "electron .",
+    "build": "electron-builder build --win --publish never",
+    "deploy": "electron-builder build --win --publish always"
   },
   "eslintConfig": {
     "extends": [
@@ -46,10 +63,5 @@
   },
   "author": "ND Huy",
   "license": "ISC",
-  "repository": {
-    "type" : "git",
-    "url" : "https://github.com/Nguyenduchuyhn811/electron_auto_update.git"
-  },
-  "build": "electron-builder build --mac --win --publish never",
-  "deploy": "electron-builder build --mac --win --publish always"
+  "repository": "https://github.com/Nguyenduchuyhn811/electron_auto_update.git"
 }

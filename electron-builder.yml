@@ -1,4 +1,4 @@
 appId: com.autoUpdate.ElectronAutoUpdate
 publish:
   provider: github
-  token: [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]
+  token: process.env.REACT_APP_NOT_SECRET_CODE
