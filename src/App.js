@@ -2,6 +2,11 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const sum = require('./test');
+
+  const total = sum(3,5);
+  console.log(total);
+  document.write(total);
   return (
     <div className="App">
       <header className="App-header">
