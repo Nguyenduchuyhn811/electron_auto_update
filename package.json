@@ -63,5 +63,8 @@
   },
   "author": "ND Huy",
   "license": "ISC",
-  "repository": "https://github.com/Nguyenduchuyhn811/electron_auto_update.git"
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/Nguyenduchuyhn811/electron_auto_update.git"
+  }
 }
