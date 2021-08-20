@@ -1,6 +1,6 @@
 {
   "build": {
-    "appId": "com.github.iffy.electron_auto_update",
+    "appId": "com.github.electron_auto_update",
     "extends": null,
     "productName": "Đây là bản test",
     "directories": {
