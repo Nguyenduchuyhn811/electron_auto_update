@@ -1,6 +1,6 @@
 appId: com.autoUpdate.ElectronAutoUpdate
 publish:
   provider: github
-  owner: Nguyenduchuyhn811
+  owner: Nguyenduchuyhn811@gmail.com
   repo: electron_auto_update
-  token: process.env.REACT_APP_NOT_SECRET_CODE
+  token: [process.env.REACT_APP_NOT_SECRET_CODE]
