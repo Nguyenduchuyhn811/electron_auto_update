@@ -28,6 +28,7 @@ function createWindow () {
   mainWindow.webContents.openDevTools()
 
   // et charger l'index.html de l'application.
+  // mainWindow.loadURL('../public/index.html')
   mainWindow.loadURL('http://localhost:3000/')
 
   // Ouvrir les outils de développement.
